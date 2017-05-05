@@ -1,5 +1,8 @@
-use strict;
 package ShemPerl::Logging;
+
+# Import color function from Term::ANSIColor module
+use Term::ANSIColor 'color';
+@EXPORT_OK = qw(color);
 
 sub warn
 {
